@@ -1,35 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5; /* Cor nova para testar o cache */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    padding: 20px 0;
 }
 
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    text-align: center;
+.main-wrapper {
     width: 90%;
     max-width: 400px;
 }
 
-button {
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label { font-weight: bold; display: block; margin-bottom: 5px; }
+
+input {
     width: 100%;
     padding: 12px;
-    margin-top: 10px;
-    border: none;
+    border: 1px solid #ddd;
     border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.btn-calc {
+    background-color: #27ae60;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
     cursor: pointer;
-    font-weight: bold;
 }
 
 #btnWhats {
     background-color: #25D366;
     color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
     margin-top: 15px;
+    cursor: pointer;
 }
+
+.portfolio-box {
+    background: #1c1e21;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.btn-contratar {
+    display: block;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hidden { display: none; }

@@ -3,28 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Lucro Online - Shopee & Dropshipping</title>
-    <meta name="description" content="Calcule sua margem de lucro real de forma simples. A ferramenta ideal para vendedores online.">
+    <title>Calculadora de Lucro & Portfólio Dev</title>
+    <meta name="description" content="Calcule seu lucro e contrate serviços de desenvolvimento web.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>📊 Calculadora de Lucro</h2>
-        <label>Custo do Produto (R$)</label>
-        <input type="number" id="custo" placeholder="Ex: 50.00">
-        
-        <label>Preço de Venda (R$)</label>
-        <input type="number" id="venda" placeholder="Ex: 100.00">
-        
-        <button onclick="calcular()">Calcular Resultado</button>
-        
-        <div id="resultado" class="hidden">
-            <p id="lucroBruto"></p>
-            <p id="margem"></p>
-            <hr>
-            <button id="btnWhats" style="background: #25D366;" onclick="compartilhar()">
-                📲 Compartilhar Resultado
-            </button>
+    <div class="main-wrapper">
+        <div class="container">
+            <h2>📊 Calculadora de Lucro</h2>
+            <div class="input-group">
+                <label>Custo do Produto (R$)</label>
+                <input type="number" id="custo" placeholder="Ex: 50.00">
+            </div>
+            <div class="input-group">
+                <label>Preço de Venda (R$)</label>
+                <input type="number" id="venda" placeholder="Ex: 100.00">
+            </div>
+            
+            <button class="btn-calc" onclick="calcular()">Calcular Resultado</button>
+            
+            <div id="resultado" class="hidden">
+                <p id="lucroBruto"></p>
+                <p id="margem"></p>
+                <button id="btnWhats" onclick="compartilhar()">
+                    📲 Compartilhar no WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <h3>🚀 Gostou desta ferramenta?</h3>
+            <p>Eu desenvolvo sites e cartões digitais personalizados para o seu negócio!</p>
+            <a href="https://wa.me/5533984512784" class="btn-contratar" target="_blank">
+                Falar com Gustavo (Dev)
+            </a>
         </div>
     </div>
     <script src="script.js"></script>
