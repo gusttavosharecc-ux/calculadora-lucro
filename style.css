@@ -1,80 +1,50 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+    background-color: #0f172a;
+    color: white;
+    line-height: 1.6;
 }
 
-.main-wrapper {
-    width: 90%;
-    max-width: 400px;
-}
-
-.container {
-    background: white;
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+.hero {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
-.input-group {
-    text-align: left;
-    margin-bottom: 15px;
-}
+h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.highlight { color: #38bdf8; }
 
-label { font-weight: bold; display: block; margin-bottom: 5px; }
+p { font-size: 1.1rem; color: #94a3b8; margin-bottom: 30px; }
 
-input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
-.btn-calc {
-    background-color: #27ae60;
-    color: white;
-    width: 100%;
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#btnWhats {
-    background-color: #25D366;
-    color: white;
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    margin-top: 15px;
-    cursor: pointer;
-}
-
-.portfolio-box {
-    background: #1c1e21;
-    color: white;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.btn-contratar {
-    display: block;
-    background: #007bff;
-    color: white;
+.cta-button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    padding: 15px 30px;
     text-decoration: none;
-    padding: 12px;
-    border-radius: 8px;
-    margin-top: 10px;
+    border-radius: 50px;
     font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
 }
 
-.hidden { display: none; }
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #38bdf8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #64748b;
+}

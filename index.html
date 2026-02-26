@@ -3,42 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Lucro & Portfólio Dev</title>
-    <meta name="description" content="Calcule seu lucro e contrate serviços de desenvolvimento web.">
+    <title>Gustavo Dev | Sites Profissionais</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-wrapper">
-        <div class="container">
-            <h2>📊 Calculadora de Lucro</h2>
-            <div class="input-group">
-                <label>Custo do Produto (R$)</label>
-                <input type="number" id="custo" placeholder="Ex: 50.00">
-            </div>
-            <div class="input-group">
-                <label>Preço de Venda (R$)</label>
-                <input type="number" id="venda" placeholder="Ex: 100.00">
-            </div>
-            
-            <button class="btn-calc" onclick="calcular()">Calcular Resultado</button>
-            
-            <div id="resultado" class="hidden">
-                <p id="lucroBruto"></p>
-                <p id="margem"></p>
-                <button id="btnWhats" onclick="compartilhar()">
-                    📲 Compartilhar no WhatsApp
-                </button>
-            </div>
-        </div>
+    <header class="hero">
+        <h1>Transforme seguidores em <span class="highlight">clientes</span></h1>
+        <p>Crio sites e cartões digitais de alta velocidade para o seu negócio vender mais.</p>
+        <a href="https://wa.me/5533984512784?text=Olha+vim+pelo+site+e+quero+um+orcamento" class="cta-button">Quero meu site agora</a>
+    </header>
 
-        <div class="portfolio-box">
-            <h3>🚀 Gostou desta ferramenta?</h3>
-            <p>Eu desenvolvo sites e cartões digitais personalizados para o seu negócio!</p>
-            <a href="https://wa.me/5533984512784" class="btn-contratar" target="_blank">
-                Falar com Gustavo (Dev)
-            </a>
+    <section class="services">
+        <div class="card">
+            <h3>📱 Cartão Digital</h3>
+            <p>Seu link na bio profissional com botões diretos para WhatsApp e Maps.</p>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <div class="card">
+            <h3>🚀 Landing Pages</h3>
+            <p>Páginas de alta conversão para vender seus produtos ou serviços.</p>
+        </div>
+        <div class="card">
+            <h3>⚡ Velocidade</h3>
+            <p>Sites leves que abrem instantaneamente em qualquer celular.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Gustavo Dev &copy; 2024</p>
+    </footer>
 </body>
 </html>
